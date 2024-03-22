@@ -1,0 +1,8 @@
+@font-face{
+    font-family: nordic-font;
+    src: URL(../fonts/Norse-Bold.otf)
+}
+
+h1{
+    font-family: nordic-font;
+}
