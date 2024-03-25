@@ -32,7 +32,7 @@ p{
 }
 
 .left{
-    width: 45%;
+    min-width: 45%;
     height: auto;
     
     background-image: URL("../img/halie-west-25xggax4bSA-unsplash.jpg");
