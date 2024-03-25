@@ -3,8 +3,12 @@
     src: URL(../fonts/Norse-Bold.otf)
 }
 
+html{
+    min-height: 100vh;
+}
+
 body{
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     display: flex;
     
@@ -30,10 +34,11 @@ p{
 .left{
     width: 45%;
     height: auto;
+    
     background-image: URL("../img/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    
+   
     
 }
 
@@ -84,7 +89,7 @@ label{
 .bottom{
     padding-top: 24px;
     padding-left: 24px;
-    padding-bottom: 20%;
+    padding-bottom: 120px;
     box-shadow: inset 0 10px 9px -7px rgba(0,0,0,0.4);
     
     
@@ -99,9 +104,10 @@ label{
 
 .form-content{
     padding-left: 24px;
-    padding-right: 50px;
+    padding-right: 0;
     padding-top: 24px;
     padding-bottom: 24px;
+    
     
 }
 
@@ -115,6 +121,6 @@ form{
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
-    width: 500px;
+    width: 80%;
 }
 
