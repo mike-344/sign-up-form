@@ -29,6 +29,7 @@ p{
     margin-top: 20%;
     
     
+    
 }
 
 .left{
@@ -38,23 +39,24 @@ p{
     background-image: URL("../img/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   
+    display: flex;
+    flex-direction: column;
     
 }
 
 
 .left h1{
-    height: 100%;
-    font-size: 100px;
+   
+    font-size: 90px;
     padding: 0px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    justify-self: center;
     color: white;
     font-family: nordic-font;
     
+    
 }
 img{
-    width: 90px;
+    width: 110px;
     height: auto;
 }
 
@@ -94,6 +96,23 @@ label{
     
     
 }
+.bottom .create_account{
+    background-color: #596D48;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 32px;
+    margin-bottom: 16px;
+    
+}
+.alt_login .login{
+    border: 0px;
+    background-color: rgb(250, 245, 245);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    color: #596D48;
+}
 
 .right{
     display: flex;
@@ -122,5 +141,41 @@ form{
     flex-wrap: wrap;
     gap: 38px;
     width: 80%;
+}
+
+
+input{
+    
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+    width: 200px;
+    height: 18px;
+    
+}
+input:focus{
+   box-shadow: 2px 2px 6px #888888;
+   outline: none;
+   border-color: blue;
+    
+}
+input:invalid{
+    border-color: red;
+}
+
+
+.error_prompt_one, .error_prompt_two{
+    font-size: 12px;
+    color: red;
+    position:absolute;
+}
+
+.credit{
+    color: white;
+    align-self:center;
+    margin-top: auto;
+    padding-bottom: 8px;
 }
 
